@@ -45,7 +45,7 @@ const getComposition = (f, g) => (x) => f(g(x));
  *
  */
 
-const getPowerFunction = (exponent) => (x) => x ** exponent;
+const getPowerFunction = (exponent) => (x) => Math.pow(x, exponent);
 
 /**
  * Returns the polynom function of one argument based on specified coefficients.

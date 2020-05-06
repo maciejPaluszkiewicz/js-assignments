@@ -170,7 +170,7 @@ const getParallelipidedDiagonal = (a, b, c) => Math.sqrt(a * a + b * b + c * c);
  *   1678, 2  => 1700
  *   1678, 3  => 2000
  */
-const roundToPowerOfTen = (num, pow) => Math.round(num / (10 ** pow)) * (10 ** pow);
+const roundToPowerOfTen = (num, pow) => Math.round(num / (Math.pow(10, pow))) * (Math.pow(10, pow));
 
 
 /**
